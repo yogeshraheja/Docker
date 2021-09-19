@@ -4,11 +4,11 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-    return "Welcome!"
+    return "Hello and Welcome to Thinknyx DevOps Associate Program!"
 
-@app.route('/how are you')
+@app.route('/feedback')
 def hello():
-    return 'I am good, how about you?'
+    return 'We aim for 5 star rating from our learners!'
 
 if __name__ == "__main__":
     app.run()
